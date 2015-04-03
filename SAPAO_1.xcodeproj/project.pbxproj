@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B134CA91AC9CBF1001318B4 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B134CA41AC9CBF1001318B4 /* TFHpple.m */; };
+		8B134CAA1AC9CBF1001318B4 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B134CA61AC9CBF1001318B4 /* TFHppleElement.m */; };
+		8B134CAB1AC9CBF1001318B4 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B134CA81AC9CBF1001318B4 /* XPathQuery.m */; };
+		8B134CAD1AC9D3E9001318B4 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B134CAC1AC9D3E9001318B4 /* libxml2.dylib */; };
+		8B134CB01AC9F94F001318B4 /* VCCuenta.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B134CAF1AC9F94E001318B4 /* VCCuenta.m */; };
+		8B134CB31AC9F974001318B4 /* VCEstadoCuenta.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B134CB21AC9F974001318B4 /* VCEstadoCuenta.m */; };
+		8B134CB61AC9F9B7001318B4 /* VCMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B134CB51AC9F9B7001318B4 /* VCMain.m */; };
+		8B134CBA1ACCC0AD001318B4 /* EdoCuenta.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B134CB91ACCC0AD001318B4 /* EdoCuenta.m */; };
 		8B44CE051AC4F014000CA07F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B44CE041AC4F014000CA07F /* main.m */; };
 		8B44CE081AC4F014000CA07F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B44CE071AC4F014000CA07F /* AppDelegate.m */; };
-		8B44CE0B1AC4F014000CA07F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B44CE0A1AC4F014000CA07F /* ViewController.m */; };
 		8B44CE0E1AC4F014000CA07F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B44CE0C1AC4F014000CA07F /* Main.storyboard */; };
 		8B44CE101AC4F014000CA07F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B44CE0F1AC4F014000CA07F /* Images.xcassets */; };
 		8B44CE131AC4F014000CA07F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B44CE111AC4F014000CA07F /* LaunchScreen.xib */; };
 		8B44CE1F1AC4F015000CA07F /* SAPAO_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B44CE1E1AC4F015000CA07F /* SAPAO_1Tests.m */; };
+		8B44CE381AC4FEC9000CA07F /* agua1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B44CE371AC4FEC9000CA07F /* agua1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +35,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B134CA31AC9CBF1001318B4 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		8B134CA41AC9CBF1001318B4 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		8B134CA51AC9CBF1001318B4 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		8B134CA61AC9CBF1001318B4 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		8B134CA71AC9CBF1001318B4 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		8B134CA81AC9CBF1001318B4 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		8B134CAC1AC9D3E9001318B4 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		8B134CAE1AC9F94E001318B4 /* VCCuenta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCCuenta.h; sourceTree = "<group>"; };
+		8B134CAF1AC9F94E001318B4 /* VCCuenta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCCuenta.m; sourceTree = "<group>"; };
+		8B134CB11AC9F974001318B4 /* VCEstadoCuenta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCEstadoCuenta.h; sourceTree = "<group>"; };
+		8B134CB21AC9F974001318B4 /* VCEstadoCuenta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCEstadoCuenta.m; sourceTree = "<group>"; };
+		8B134CB41AC9F9B7001318B4 /* VCMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCMain.h; sourceTree = "<group>"; };
+		8B134CB51AC9F9B7001318B4 /* VCMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCMain.m; sourceTree = "<group>"; };
+		8B134CB81ACCC0AD001318B4 /* EdoCuenta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EdoCuenta.h; sourceTree = "<group>"; };
+		8B134CB91ACCC0AD001318B4 /* EdoCuenta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EdoCuenta.m; sourceTree = "<group>"; };
 		8B44CDFF1AC4F014000CA07F /* SAPAO_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SAPAO_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B44CE031AC4F014000CA07F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B44CE041AC4F014000CA07F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8B44CE061AC4F014000CA07F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8B44CE071AC4F014000CA07F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8B44CE091AC4F014000CA07F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8B44CE0A1AC4F014000CA07F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8B44CE0D1AC4F014000CA07F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B44CE0F1AC4F014000CA07F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8B44CE121AC4F014000CA07F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8B44CE181AC4F015000CA07F /* SAPAO_1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SAPAO_1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B44CE1D1AC4F015000CA07F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B44CE1E1AC4F015000CA07F /* SAPAO_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAPAO_1Tests.m; sourceTree = "<group>"; };
+		8B44CE371AC4FEC9000CA07F /* agua1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = agua1.jpg; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B134CAD1AC9D3E9001318B4 /* libxml2.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,9 +83,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B134CA21AC9CB0C001318B4 /* hpple */ = {
+			isa = PBXGroup;
+			children = (
+				8B134CA31AC9CBF1001318B4 /* TFHpple.h */,
+				8B134CA41AC9CBF1001318B4 /* TFHpple.m */,
+				8B134CA51AC9CBF1001318B4 /* TFHppleElement.h */,
+				8B134CA61AC9CBF1001318B4 /* TFHppleElement.m */,
+				8B134CA71AC9CBF1001318B4 /* XPathQuery.h */,
+				8B134CA81AC9CBF1001318B4 /* XPathQuery.m */,
+			);
+			name = hpple;
+			sourceTree = "<group>";
+		};
+		8B134CB71ACCC044001318B4 /* Modelo */ = {
+			isa = PBXGroup;
+			children = (
+				8B134CB81ACCC0AD001318B4 /* EdoCuenta.h */,
+				8B134CB91ACCC0AD001318B4 /* EdoCuenta.m */,
+			);
+			name = Modelo;
+			sourceTree = "<group>";
+		};
 		8B44CDF61AC4F013000CA07F = {
 			isa = PBXGroup;
 			children = (
+				8B134CAC1AC9D3E9001318B4 /* libxml2.dylib */,
 				8B44CE011AC4F014000CA07F /* SAPAO_1 */,
 				8B44CE1B1AC4F015000CA07F /* SAPAO_1Tests */,
 				8B44CE001AC4F014000CA07F /* Products */,
@@ -81,10 +127,17 @@
 		8B44CE011AC4F014000CA07F /* SAPAO_1 */ = {
 			isa = PBXGroup;
 			children = (
+				8B134CB71ACCC044001318B4 /* Modelo */,
+				8B134CA21AC9CB0C001318B4 /* hpple */,
+				8B44CE361AC4FEB2000CA07F /* graficos */,
 				8B44CE061AC4F014000CA07F /* AppDelegate.h */,
 				8B44CE071AC4F014000CA07F /* AppDelegate.m */,
-				8B44CE091AC4F014000CA07F /* ViewController.h */,
-				8B44CE0A1AC4F014000CA07F /* ViewController.m */,
+				8B134CB11AC9F974001318B4 /* VCEstadoCuenta.h */,
+				8B134CB21AC9F974001318B4 /* VCEstadoCuenta.m */,
+				8B134CAE1AC9F94E001318B4 /* VCCuenta.h */,
+				8B134CAF1AC9F94E001318B4 /* VCCuenta.m */,
+				8B134CB41AC9F9B7001318B4 /* VCMain.h */,
+				8B134CB51AC9F9B7001318B4 /* VCMain.m */,
 				8B44CE0C1AC4F014000CA07F /* Main.storyboard */,
 				8B44CE0F1AC4F014000CA07F /* Images.xcassets */,
 				8B44CE111AC4F014000CA07F /* LaunchScreen.xib */,
@@ -117,6 +170,14 @@
 				8B44CE1D1AC4F015000CA07F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B44CE361AC4FEB2000CA07F /* graficos */ = {
+			isa = PBXGroup;
+			children = (
+				8B44CE371AC4FEC9000CA07F /* agua1.jpg */,
+			);
+			name = graficos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +263,7 @@
 				8B44CE0E1AC4F014000CA07F /* Main.storyboard in Resources */,
 				8B44CE131AC4F014000CA07F /* LaunchScreen.xib in Resources */,
 				8B44CE101AC4F014000CA07F /* Images.xcassets in Resources */,
+				8B44CE381AC4FEC9000CA07F /* agua1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +281,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B44CE0B1AC4F014000CA07F /* ViewController.m in Sources */,
 				8B44CE081AC4F014000CA07F /* AppDelegate.m in Sources */,
+				8B134CB61AC9F9B7001318B4 /* VCMain.m in Sources */,
 				8B44CE051AC4F014000CA07F /* main.m in Sources */,
+				8B134CA91AC9CBF1001318B4 /* TFHpple.m in Sources */,
+				8B134CB31AC9F974001318B4 /* VCEstadoCuenta.m in Sources */,
+				8B134CAB1AC9CBF1001318B4 /* XPathQuery.m in Sources */,
+				8B134CAA1AC9CBF1001318B4 /* TFHppleElement.m in Sources */,
+				8B134CB01AC9F94F001318B4 /* VCCuenta.m in Sources */,
+				8B134CBA1ACCC0AD001318B4 /* EdoCuenta.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +413,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = SAPAO_1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -355,6 +424,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = SAPAO_1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -414,6 +484,7 @@
 				8B44CE241AC4F015000CA07F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B44CE251AC4F015000CA07F /* Build configuration list for PBXNativeTarget "SAPAO_1Tests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +493,7 @@
 				8B44CE271AC4F015000CA07F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
