@@ -24,6 +24,8 @@
 @property (strong, nonatomic) IBOutlet UILabel *lblCorreccion;
 @property (strong, nonatomic) IBOutlet UILabel *lblSaldo;
 @property (strong, nonatomic) IBOutlet UILabel *lblTotal;
+@property (strong, nonatomic) IBOutlet UILabel *lblPorpagar;
+@property (strong, nonatomic) IBOutlet UILabel *lblParcialidad;
 
 ///
 
